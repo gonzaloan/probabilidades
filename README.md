@@ -51,3 +51,20 @@ Por ejemplo en un modelo de clasificación:
 
 ![Modelo de clasificacion 2](img/4.png)
 
+## Tipos de probabilidad
+
+Tomemos un ejemplo de lanzamiento de dos dados:
+
+![Dados](img/5.png)
+
+
+ - **Conjunta (joint)**: Cuando calculo la probabilidad de 2 o más sucesos, eso se le llama probabilidad conjunta. Ejemplo: Probabilidad de que al lanzar dos dados, ambos caigan en número par: 9/36, ó 1/4
+ - **Marginal**: Probabilidad sencilla a partir de una probabilidad conjunta. Se obtienen haciendo sumas sobre ciertas variables aleatorias o ciertas ocurrencias dentro de la probabilidad conjunta. Siempre que se haga sumas de probabilidades conjuntas y se deje libre una variable, se dice que se está obteniendo la probabilidad marginal de esa variable que queda libre.
+ - **Condicional**: P(A=par | B=par). Ahora, si quiero calcular, por ejemplo, la probabilidad de que A caiga en par, dado que B ya cayó en par, estamos hablando de probabilidad condicional, y cambia un poco los resultados, si hay un total de 36 opciones que pueden darse debido a que cada dado tiene 6 caras, si B ya cayó en par, reduzco esas probabilidades a 18. El número de eventos exitosos no cambió, sino el número de eventos posibles. Por lo tanto, ahora las posibilidades son 9/18 ó 1/2
+
+
+### Regla del Producto
+
+$$P(A,B) = {P(A | B)*P(B)}$$
+
+Se usa para descomponer en general, probabilidades condicionales.
