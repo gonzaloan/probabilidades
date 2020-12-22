@@ -65,6 +65,6 @@ Tomemos un ejemplo de lanzamiento de dos dados:
 
 ### Regla del Producto
 
-$$P(A,B) = {P(A | B)*P(B)}$$
+$$P(A,B)={P(A|B)*P(B)}$$
 
 Se usa para descomponer en general, probabilidades condicionales.
